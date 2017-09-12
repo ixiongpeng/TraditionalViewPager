@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xiongpeng.traditionalviewpager.MainActivity"
+    android:weightSum="1">
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="429dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1.02" />
+
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/pengyou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#aaaaaa"
+            android:textColor="#ff0000"
+            android:text="朋友"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#aaaaaa"
+            android:textColor="#ff0000"
+            android:text="微信"
+            />
+
+        <Button
+            android:id="@+id/shezhi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:background="#aaaaaa"
+            android:text="设置"
+            android:layout_weight="1"/>
+
+        <Button
+        android:id="@+id/tongxunlu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:background="#aaaaaa"
+        android:text="通讯录"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
